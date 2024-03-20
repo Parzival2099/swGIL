@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+}
+
+section, aside{
+    border: 1px solid;
+    height: 50vh;
+}
+
+section div{
+    height: 100%;
+}
+
+.bx-cont-inf{
+    width: 80%;
+}
+
+.min-img{
+    padding: 15%;
+}
+
+.min-img div{
+    height: 40vh;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+aside div div{
+    height: 50vh;
+}
+
+.bx-mr-prd{
+    
+}

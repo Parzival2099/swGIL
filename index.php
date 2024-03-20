@@ -47,112 +47,19 @@
         </div>
     </header>
 
-    <nav>
-
-    </nav>
-
-    <div class="bx-slider row">
-        <div class="slider col">
-
-        </div>
-    </div>
-    <div class="row bx-artc-prc">
-        <section class="col-10">
-            <div class="row d-flex gap-5 justify-content-center">
-                <div class="col-2 bx-item">
-                    <div class="col img-artc">
-                        <img src="../IMG/Articulo 1.png" alt="">
-                    </div>
-                    <div class="col inf-artc">
-                        <h6>Nombre</h6>
-                        <p>$000.0</p>
-                    </div>
-                </div>
-                <div class="col-2 bx-item">
-                    <div class="col img-artc">
-                        <img src="../IMG/Articulo 2.webp" alt="">
-                    </div>
-                    <div class="col inf-artc">
-                        <h6>Nombre</h6>
-                        <p>$000.0</p>
-                    </div>
-                </div>
-                <div class="col-2 bx-item">
-                    <div class="col img-artc">
-                        <img src="../IMG/Articulo 3.webp" alt="">
-                    </div>
-                    <div class="col inf-artc">
-                        <h6>Nombre</h6>
-                        <p>$000.0</p>
-                    </div>
-                </div>
-                <div class="col-2 bx-item">
-                    <div class="col img-artc">
-                        <img src="../IMG/Articulo 4.jpg" alt="">
-                    </div>
-                    <div class="col inf-artc">
-                        <h6>Nombre</h6>
-                        <p>$000.0</p>
-                    </div>
-                </div>
-                <div class="col-2 bx-item">
-                    <div class="col img-artc">
-                        <img src="../IMG/Articulo 5.webp" alt="">
-                    </div>
-                    <div class="col inf-artc">
-                        <h6>Nombre</h6>
-                        <p>$000.0</p>
-                    </div>
-                </div>
-                <div class="col-2 bx-item">
-                    <div class="col img-artc">
-                        <img src="../IMG/Articulo 6.webp" alt="">
-                    </div>
-                    <div class="col inf-artc">
-                        <h6>Nombre</h6>
-                        <p>$000.0</p>
-                    </div>
-                </div>
-                <div class="col-2 bx-item">
-                    <div class="col img-artc">
-                        <img src="../IMG/Articluo 7.webp" alt="">
-                    </div>
-                    <div class="col inf-artc">
-                        <h6>Nombre</h6>
-                        <p>$000.0</p>
-                    </div>
-                </div>
-                <div class="col-2 bx-item">
-                    <div class="col img-artc">
-                        <img src="../IMG/Articulo 8.jpg" alt="">
-                    </div>
-                    <div class="col inf-artc">
-                        <h6>Nombre</h6>
-                        <p>$000.0</p>
-                    </div>
-                </div>
-                <div class="col-2 bx-item">
-                    <div class="col img-artc">
-                        <img src="../IMG/Areticulo 9.jpg" alt="">
-                    </div>
-                    <div class="col inf-artc">
-                        <h6>Nombre</h6>
-                        <p>$000.0</p>
-                    </div>
-                </div>
-                <div class="col-2 bx-item">
-                    <div class="col img-artc">
-                        <img src="../IMG/Articulo 10.jpg" alt="">
-                    </div>
-                    <div class="col inf-artc">
-                        <h6>Nombre</h6>
-                        <p>$000.0</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-
+    <?PHP require_once("views/vwMenu.php") ?>
+    <section>
+			<?PHP 
+	    	require_once("views/vwMenu.php");
+            $pg = isset($_GET["pg"]) ? $_GET["pg"]:NULL;
+            if(!$pg) 
+                require_once("index.php");
+            if($pg=="1001") 
+                require_once("views/vwLogin.php");
+            if($pg=="1002") 
+                require_once("viewssta/vpro.php"); 
+            ?>
+		</section>
     <footer class="row">
         <div class="col-4 bx-foot-info">
             <p>&copy; ADSO</p>

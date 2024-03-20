@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="shortcut icon" href=".../IMG/Logo-oscuro.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/styleRecCons.css">
+    <title>Recuperar Contraseña</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="rec-con col-5" id="bx-rec-corr">
+                <h3>Recuperar Contraseña</h3>
+                <form action="#" class="d-flex flex-column">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" name="correo" id="correo" required onkeyup="leerCorreo('correo', 'span1-corr', 'span2-corr')">
+                    <p>Enviar codigo a: <span class="res-corr" id="span1-corr">No hay Correo</span></p>
+                    <input class="inp-link" id="btn-envcod" type="submit" value="Enviar">
+                </form>
+                <input type="button" value="Volver" class="inp-link" id="btn-vol1">
+                <img id="logo" src="../IMG/Logo-oscuro.png" alt="Logo GIL">
+            </div>
+            <div class="rec-con col-5" id="bx-rec-cod">
+                <h3>Recuperar Contraseña</h3>
+                <p>Codigo enviado a: <span class="res-corr" id="span2-corr">No hay Correo</span></p>
+                <form action="#" class="d-flex flex-column justify-content-center">
+                    <section class="d-flex gap-3 justify-content-center">
+                        <input class="inp-cod" type="text" name="" id="" maxlength="1">
+                        <input class="inp-cod" type="text" name="" id="" maxlength="1">
+                        <input class="inp-cod" type="text" name="" id="" maxlength="1">
+                        <input class="inp-cod" type="text" name="" id="" maxlength="1">
+                    </section>
+                    <input class="inp-link" id="btn-subval" type="submit" value="Validar">
+                    <input class="inp-link" id="btn-subreen" type="submit" value="Reenviar">
+                </form>
+                <p><span id="cons-res"></span></p>
+                <input type="button" value="Volver" class="inp-link" id="btn-vol2">
+                <img id="logo" src="../IMG/Logo-oscuro.png" alt="Logo GIL">
+            </div>
+            <div class="rec-con col-5" id="bx-cam-con">
+                <h3>Recuperar Contraseña</h3>
+                <form action="#" class="d-flex flex-column">
+                    <label for="ncontrasena">Contraseña Nueva</label>
+                    <input type="password" name="contrasena" id="ncontrasena" required>
+                    <label for="ncontrasena2">Confirma Contraseña</label>
+                    <input type="password" name="contrasena" id="ncontrasena2" required>
+                    <input type="submit" value="Confirmar">
+                </form>
+                <img id="logo" src="../IMG/Logo-oscuro.png" alt="Logo GIL">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../JS/script.js"></script>
+
+</html>

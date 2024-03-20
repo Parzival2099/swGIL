@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../CSS/bootstrap.min.css">
     <link rel="shortcut icon" href=".../IMG/Logo-oscuro.png" type="image/x-icon">
     <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/styleRecCons.css">
+    <link rel="stylesheet" href="http://localhost/swGIL/CSS/styleRecCons.css">
     <title>Recuperar Contraseña</title>
 </head>
 
@@ -25,8 +25,6 @@
                 <input type="button" value="Volver" class="inp-link" id="btn-vol1">
                 <img id="logo" src="../IMG/Logo-oscuro.png" alt="Logo GIL">
             </div>
-            
-            
     </div>
 </body>
 <script src="../JS/script.js"></script>

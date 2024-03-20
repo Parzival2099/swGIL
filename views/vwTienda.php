@@ -51,6 +51,11 @@
 
     </nav>
 
+    <div class="bx-slider row">
+        <div class="slider col">
+
+        </div>
+    </div>
     <div class="row bx-artc-prc">
         <section class="col-10">
             <div class="row d-flex gap-5 justify-content-center">

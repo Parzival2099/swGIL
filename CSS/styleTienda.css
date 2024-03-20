@@ -1,31 +1,32 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
 
-html, body{
+html,
+body {
     height: 100%;
 }
 
-header{
+header {
     justify-content: space-between;
     align-items: center;
     background: #FFF;
 }
 
-header img{
+header img {
     width: 8%;
     cursor: pointer;
 }
 
-.cont{
+.cont {
     position: absolute;
     left: 48%;
     transform: translate(-50%);
     padding: 10px;
 }
 
-.cont input{
+.cont input {
     outline: none;
     border-radius: 50px;
     height: 33px;
@@ -37,11 +38,11 @@ header img{
     border: 1px solid #cd1717;
 }
 
-::placeholder{
+::placeholder {
     color: gray;
 }
 
-.btns{
+.btns {
     position: absolute;
     right: 0;
     top: 0;
@@ -55,37 +56,83 @@ header img{
     transition: .5s;
 }
 
-.btns svg{
+.btns svg {
     color: #FFF;
     line-height: 50px;
     transition: all .7s ease;
 }
 
-.cont:hover input{
+.cont:hover input {
     width: 350px;
 }
 
-.cont:hover svg{
+.cont:hover svg {
     transform: rotate(-360deg);
 }
 
-.btns:hover{
+.btns:hover {
     background: #cd1717;
 }
 
-.icons svg{
+.icons svg {
     cursor: pointer;
     transition: all 400ms;
 }
 
-.icons svg:hover{
+.icons svg:hover {
     transform: scale(1.2);
 }
-nav{
+
+nav {
     border: 1px solid;
 }
 
-.bx-item{
+.slider {
+    background: url(../IMG/publicidada1.jpg);
+    background-size: cover;
+    height: 55vh;
+    border-radius: 10px;
+    animation: animate 50s infinite;
+}
+
+@keyframes animate {
+    14% {
+        background-image: url(../IMG/publicidad7.jpg);
+        background-size: cover;
+    }
+
+    28% {
+        background-image: url(../IMG/publicidad6.jpg);
+        background-size: cover;
+    }
+
+    42% {
+        background-image: url(../IMG/publicidada5.jpg);
+        background-size: cover;
+    }
+
+    56% {
+        background-image: url(../IMG/publicidad4.jpg);
+        background-size: cover;
+    }
+
+    70% {
+        background-image: url(../IMG/publicidada3.jpg);
+        background-size: cover;
+    }
+
+    84% {
+        background-image: url(../IMG/publicidad2.jpg);
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url(../IMG/publicidada1.jpg);
+        background-size: cover;
+    }
+}
+
+.bx-item {
     height: 30vh;
     outline: 1px solid #0000000f;
     border-radius: 5px;
@@ -93,62 +140,63 @@ nav{
     padding: 0;
 }
 
-.bx-item p, img{
+.bx-item p,
+img {
     transition: all 400ms;
 }
 
-.bx-item:hover img{
+.bx-item:hover img {
     transform: translateY(-30px);
 }
 
-.bx-item:hover p{
+.bx-item:hover p {
     transform: scale(1.1);
 }
 
-.row section .row{
+.row section .row {
     padding: 2% 5% 5%;
 }
 
-.icons{
+.icons {
     display: flex;
     align-items: center;
 }
 
-.ico-items{
+.ico-items {
     display: flex;
     margin-right: 25%;
 }
 
-.ico-items .bi-heart{
+.ico-items .bi-heart {
     margin-right: 20%;
 }
 
-.inf-perfil{
+.inf-perfil {
     display: flex;
     align-items: center;
     width: 12%;
 }
 
-.inf-perfil div{
+.inf-perfil div {
     border: 1px solid #000;
     height: 4vh;
     border-radius: 6px;
     background-color: rgb(0, 132, 255);
     cursor: pointer;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
-.inf-perfil div p{
+.inf-perfil div p {
     color: #FFF;
     margin-top: 5px;
 }
 
-.bx-artc-prc{
+.bx-artc-prc {
     justify-content: center;
 }
 
-.img-artc{
+.img-artc {
     display: flex;
     justify-content: center;
     padding: 12px 10px 0px 10px;
@@ -156,11 +204,11 @@ nav{
     min-height: 65%;
 }
 
-.img-artc img{
+.img-artc img {
     width: 71.5%;
 }
 
-.inf-artc{
+.inf-artc {
     padding: 5px 10px 0px 15px;
     background: #52ffd22b;
     height: 35%;
@@ -170,7 +218,7 @@ nav{
     color: #000;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -180,13 +228,14 @@ footer{
     height: 20vh;
 }
 
-.bx-foot-info{
+.bx-foot-info {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 10px;
 }
-.bx-social{
+
+.bx-social {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,6 +243,6 @@ footer{
     font-size: 10px;
 }
 
-.bx-social svg:hover{
+.bx-social svg:hover {
     transform: scale(1.2);
 }

@@ -51,7 +51,7 @@
                                             </form>
                                             <p class="mb-0 mt-4 text-center"><a href="#" class="link">Olvido su
                                                     contraseña?</a></p>
-                                            <img id="logo" src="../IMG/Logo-oscuro.png" alt="Logo GIL">
+                                            <a href="../index.php"><img id="logo" src="../IMG/Logo-oscuro.png" alt="Logo GIL"></a>
                                         </div>
                                     </div>
                                 </div>

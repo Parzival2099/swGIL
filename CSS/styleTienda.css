@@ -12,6 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background: #FFF;
+    min-height: 10vh;
 }
 
 header img {
@@ -83,55 +84,109 @@ header img {
     transform: scale(1.2);
 }
 
-nav {
-    border: 1px solid;
+.men-hrz{
+    display: flex;
+    gap: 10%;
+    list-style: none;
 }
 
-.slider {
-    background: url(../IMG/publicidada1.jpg);
-    background-size: cover;
-    height: 55vh;
-    border-radius: 10px;
-    animation: animate 50s infinite;
+.men-vrt{
+    position: absolute;
+    z-index: 20;
+    background: rgb(255, 255, 255);
+    width: 24%;
+    list-style: none;
+    border-radius: 16px;
+    display: none;
 }
 
-@keyframes animate {
-    14% {
-        background-image: url(../IMG/publicidad7.jpg);
-        background-size: cover;
-    }
+.nav-item{
+    font-size: 13px;
+}
 
-    28% {
-        background-image: url(../IMG/publicidad6.jpg);
-        background-size: cover;
-    }
+.nav-item:hover .men-vrt{
+    display: block;
+}
 
-    42% {
-        background-image: url(../IMG/publicidada5.jpg);
-        background-size: cover;
-    }
+.men-vrt li{
+    padding: 5%;
+}
 
-    56% {
-        background-image: url(../IMG/publicidad4.jpg);
-        background-size: cover;
-    }
+.men-vrt a{
+    text-decoration: none;
+    color: #000;
+}
 
-    70% {
-        background-image: url(../IMG/publicidada3.jpg);
-        background-size: cover;
-    }
+.men-vrt a:hover{
+    border-bottom: 2px solid #000;
+}
 
-    84% {
-        background-image: url(../IMG/publicidad2.jpg);
-        background-size: cover;
-    }
+/* .slider-wrap{
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
 
+.slider{
+    display: flex;
+    aspect-ratio: 36/9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+}
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+    animation: slide 60s infinite alternate;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    15.2857% {
+        transform: translateX(-100%);
+    }
+    30.5714% {
+        transform: translateX(-200%);
+    }
+    45.8571% {
+        transform: translateX(-300%);
+    }
+    60.1428% {
+        transform: translateX(-400%);
+    }
+    75.4285% {
+        transform: translateX(-500%);
+    }
     100% {
-        background-image: url(../IMG/publicidada1.jpg);
-        background-size: cover;
+        transform: translateX(-600%);
     }
 }
 
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #FFF;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover{
+    opacity: 1;
+} */
 .bx-item {
     height: 30vh;
     outline: 1px solid #0000000f;
@@ -143,6 +198,10 @@ nav {
 .bx-item p,
 img {
     transition: all 400ms;
+}
+
+.bx-item{
+    text-decoration: none;
 }
 
 .bx-item:hover img {
@@ -245,4 +304,10 @@ footer {
 
 .bx-social svg:hover {
     transform: scale(1.2);
+}
+
+@media screen and (max-width: 900px) {
+    header img{
+        width: 17%;
+    }
 }

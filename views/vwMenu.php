@@ -1,6 +1,15 @@
-<nav>
-    <ul>
-        <li class="nav-item"><a class="nav-link" href="views/vwLogin.php">Inicio</a></li>
+<nav class="nav-men">
+    <ul class="men-hrz">
+        <li class="nav-item">
+            Categorias
+            <ul class="men-vrt">
+                <li><a href="#">Deportes</a></li>
+                <li><a href="#">Moda</a></li>
+                <li><a href="#">Tecnología</a></li>
+                <li><a href="#">Accesorios</a></li>
+                <li><a href="#">Hogar</a></li>
+            </ul>
+    </li>
         <li class="nav-item"><a class="nav-link" href="index.php?pg=1002">Nosotros</a></li>
         <li class="nav-item"><a class="nav-link" href="index.php?pg=1003">Productos</a></li>
     </ul>

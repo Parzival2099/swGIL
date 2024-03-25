@@ -1,18 +1,10 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body, html{
-    height: 100%;
-}
-
-section, aside{
+.section, .aside{
     border: 1px solid;
     height: 50vh;
+    border-radius: 10px;
 }
 
-section div{
+.section div{
     height: 100%;
 }
 
@@ -30,10 +22,28 @@ section div{
     border-radius: 5px;
 }
 
-aside div div{
+.aside div div{
     height: 50vh;
 }
 
+.bx-art-pr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bx-art-pr img{
+    width: 60%;
+}
+
 .bx-mr-prd{
-    
+    overflow: auto;
+}
+
+.bx-mr-prd{
+    padding: 2%;
+}
+
+.bx-art-sg{
+    width: 80%;
 }

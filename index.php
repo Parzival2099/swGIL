@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/styleTienda.css">
-    <script src="../JS/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CSS/styleInfoPrd.css">
     <title>Tienda G.I.L</title>
 </head>
 
@@ -49,13 +49,17 @@
         </div>
     </header>
 
-    <?PHP require_once ("views/vwMenu.php") ?>
+    <?php require_once ("views/vwMenu.php") ?>
+    <?php require_once ("views/vwSlider.php")?>
     <section>
         <?PHP
         require_once ("views/vwMenu.php");
         $pg = isset ($_GET["pg"]) ? $_GET["pg"] : NULL;
         if (!$pg)
             require_once ("index.php");
+            require_once ("views/vwTienda.php");
+        if ($pg == "001")
+            require_once ("views/vwInfoPrd.php");
         if ($pg == "1001")
             require_once ("views/vwLogin.php");
         if ($pg == "1002")
@@ -63,7 +67,7 @@
         ?>
     </section>
 
-    <?PHP require_once ("views/vwTienda.php")?>
+    
     <footer class="row">
         <div class="col-4 bx-foot-info">
             <p>&copy; ADSO</p>
@@ -91,6 +95,7 @@
             </svg>
         </div>
     </footer>
+    <script src="JS/bootstrap.min.js"></script>
 </body>
 
 </html>

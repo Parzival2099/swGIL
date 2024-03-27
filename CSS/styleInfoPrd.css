@@ -1,7 +1,8 @@
 .section, .aside{
     border: 1px solid;
-    height: 50vh;
+    min-height: 70vh;
     border-radius: 10px;
+    overflow: auto;
 }
 
 .section div{
@@ -9,7 +10,7 @@
 }
 
 .bx-cont-inf{
-    width: 80%;
+    width: 100%;
 }
 
 .min-img{
@@ -20,12 +21,17 @@
     height: 40vh;
     border: 1px solid;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .aside div div{
     height: 50vh;
 }
 
+.bx-fot-art{
+    display: flex;
+    align-items: center;
+}
 .bx-art-pr{
     display: flex;
     justify-content: center;
@@ -46,4 +52,24 @@
 
 .bx-art-sg{
     width: 80%;
+}
+
+.min-img div img{
+    width: -webkit-fill-available;
+}
+
+.bx-art-sg{
+    margin: 2% 0;
+}
+
+.bx-txt-prd p{
+    margin: 0;
+    font-size: 10px;
+}
+.bx-txt-prd h3, h4{
+    font-size: 24px;
+}
+
+.bx-txt-prd section p, .bx-car-prd section ul{
+    font-size: 16px;
 }

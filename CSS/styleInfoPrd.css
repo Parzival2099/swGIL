@@ -197,6 +197,14 @@ h4 {
     margin-top: 4%;
 }
 
+.bx-btns-comp{
+    line-height: 30px;
+}
+
+div .bx-btns-comp div{
+    height: auto;
+}
+
 .bx-btns-comp button {
     width: 75%;
     border-radius: 5px;
@@ -227,4 +235,66 @@ h4 {
 
 #btn-add-carr:hover {
     background-color: rgb(221, 221, 221);
+}
+
+.bx-cont-carr-pro{
+    padding: 4%;
+}
+
+.bx-prp-carr-comp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bx-items-carr-comp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline: 1px solid #a9a1a1;
+    border-radius: 10px;
+    padding: 1%;
+    background: #e3e3e357;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.bx-items-carr-comp img{
+    width: 100%;
+}
+
+.bx-items-carr-comp h4{
+    margin: 4% 0;
+    font-size: 16px;
+}
+
+.bx-items-carr-comp button{
+    border: none;
+    padding: 1%;
+    border-radius: 5px;
+    background: #f51f1fd6;
+    color: #FFF;
+    font-size: 12px;
+    transition: all 400ms;
+}
+
+.bx-items-carr-comp button:hover{
+    background: #df2222;
+}
+
+.bx-items-carr-comp p{
+    font-size: 12px;
+}
+
+.bx-res-carr-comp{
+    outline: 1px solid gray;
+    border-radius: 5px;
+    background: #e3e3e357;
+    height: 20vh;
+    padding: 1%;
+}
+
+.bx-res-carr-comp h5{
+    border-bottom: 1px solid;
+    padding: 1%;
 }

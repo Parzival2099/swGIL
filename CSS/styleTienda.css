@@ -254,8 +254,9 @@ img {
     margin-right: 25%;
 }
 
-.ico-items .bi-heart {
+.ico-items a {
     margin-right: 20%;
+    color: #000;
 }
 
 .inf-perfil {

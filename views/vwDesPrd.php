@@ -1,4 +1,4 @@
-<div class="row bx-des-prd">
+<div class="row bx-des-prd" id="bx-des-prd">
         <h5>Descripción</h5>
         <div class="col-10">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti sed quam molestiae odit? Temporibus

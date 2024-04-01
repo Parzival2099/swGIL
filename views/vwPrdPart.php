@@ -46,7 +46,7 @@
                             <li>Es reclinable.</li>
                             <li>Comodidad visual en todo momento.</li>
                         </ul>
-                        <a href="#">Ver más detalles</a>
+                        <a href="#bx-des-prd">Ver más detalles</a>
                     </section>
                 </div>
                 <div class="col-5 bx-btns-comp">

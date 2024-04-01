@@ -9,8 +9,9 @@
                 <li><a href="#">Accesorios</a></li>
                 <li><a href="#">Hogar</a></li>
             </ul>
-    </li>
+        </li>
         <li class="nav-item"><a class="nav-link" href="index.php?pg=1002">Nosotros</a></li>
         <li class="nav-item"><a class="nav-link" href="index.php?pg=1003">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.php?pg=1003">Ayuda/PQR</a></li>
     </ul>
 </nav>

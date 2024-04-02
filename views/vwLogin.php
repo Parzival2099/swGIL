@@ -49,7 +49,7 @@
                                                 </div>
                                                 <input type="submit" value="Ingresar" class="btn mt-4">
                                             </form>
-                                            <p class="mb-0 mt-4 text-center"><a href="#" class="link">Olvido su
+                                            <p class="mb-0 mt-4 text-center"><a href="vwRecContrasena.php" class="link">Olvido su
                                                     contraseña?</a></p>
                                             <a href="../index.php"><img id="logo" src="../IMG/Logo-oscuro.png" alt="Logo GIL"></a>
                                         </div>

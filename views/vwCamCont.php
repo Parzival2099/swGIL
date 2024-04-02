@@ -14,7 +14,7 @@
 <body>
     <div class="rec-con col-5" id="bx-cam-con">
         <h3>Recuperar Contraseña</h3>
-        <form action="#" class="d-flex flex-column">
+        <form action="../index.php" class="d-flex flex-column">
             <label for="ncontrasena">Contraseña Nueva</label>
             <input type="password" name="contrasena" id="ncontrasena" required>
             <label for="ncontrasena2">Confirma Contraseña</label>

@@ -16,7 +16,7 @@
         <div class="row d-flex justify-content-center">
             <div class="rec-con col-5" id="bx-rec-corr">
                 <h3>Recuperar Contraseña</h3>
-                <form action="#" class="d-flex flex-column">
+                <form action="vwCamCont.php" class="d-flex flex-column">
                     <label for="correo">Correo Electrónico</label>
                     <input type="email" name="correo" id="correo" required onkeyup="leerCorreo('correo', 'span1-corr', 'span2-corr')">
                     <p>Enviar codigo a: <span class="res-corr" id="span1-corr">No hay Correo</span></p>

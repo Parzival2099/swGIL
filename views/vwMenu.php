@@ -15,7 +15,7 @@
         <li class="nav-item">
             Ayuda/PQR
             <ul class="men-vrt">
-                <li><a href="">Preguntas Frecuentes</a></li>
+                <li><a href="index.php?pg=1004">Preguntas Frecuentes</a></li>
                 <li><a href="index.php?pg=1005">Recursos educativos</a></li>
                 <li><a href="index.php?pg=1006">Soporte</a></li>
             </ul>

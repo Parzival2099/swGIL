@@ -52,7 +52,7 @@
                 <div class="col-5 bx-btns-comp">
                     <p>Stock disponible: <span>10</span></p>
                     <p>Cantidad: <span>1</span></p>
-                    <button id="btn-buy">Lo quiero </button>
+                    <button id="btn-buy"><a href="index.php?pg=1008">Lo quiero </a></button>
                     <button id="btn-add-carr">Añadir al carrito</button>
                     <div class="col">
                         <h6>Información de la Tienda</h6>

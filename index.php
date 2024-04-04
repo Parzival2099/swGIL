@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/styleTienda.css">
     <link rel="stylesheet" href="CSS/styleInfoPrd.css">
-    <link rel="stylesheet" href="CSS/stylefaq.css">
+    <link rel="stylesheet" href="CSS/stylefaq.css"
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <link rel="stylesheet" href="CSS/stylesoport.css ">
     <link rel="stylesheet" href="CSS/stylepagos.css ">
     <link rel="stylesheet" href="CSS/stylepancon.css">
@@ -96,5 +97,6 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
 </body>
 </html>

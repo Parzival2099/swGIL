@@ -61,6 +61,7 @@ h1 {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   display: inline-block;
+  float: none;
   position: relative;
   top: -55px;
   right: 10px;

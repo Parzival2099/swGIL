@@ -90,5 +90,4 @@
     <script src="JS/mainfaq.js"></script>
     <script src="https://kit.fontawesome.com/e2ac9cc532.js" crossorigin="anonymous"></script>
 </body>
-
 </html>

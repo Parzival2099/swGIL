@@ -1,3 +1,21 @@
+<style>
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .video-container {
+      width: 80%;
+      max-width: 800px;
+    }
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+  </style>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="#">GIL</a>

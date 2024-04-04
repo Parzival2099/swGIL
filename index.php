@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="CSS/styleTienda.css">
     <link rel="stylesheet" href="CSS/styleInfoPrd.css">
     <link rel="stylesheet" href="CSS/stylefaq.css"
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <link rel="stylesheet" href="CSS/stylesoport.css ">
     <link rel="stylesheet" href="CSS/stylepagos.css ">
     <link rel="stylesheet" href="CSS/stylepancon.css">
@@ -88,7 +87,7 @@
     </footer>
     <script src="JS/bootstrap.min.js"></script>
     <script src="JS/script.js"></script>
-    <script src="JS/mainfaq.js"></script>
+    
     <script src="https://kit.fontawesome.com/e2ac9cc532.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
@@ -97,6 +96,6 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 </body>
 </html>

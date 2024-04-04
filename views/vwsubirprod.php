@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <div class="container mt-5">
         <h1>Subir Producto</h1>
         <form>
@@ -24,3 +25,4 @@
             <button type="submit" class="btn btn-primary">Subir</button>
         </form>
     </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
